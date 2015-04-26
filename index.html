@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width">
+	<title>If they were not journalists...</title>
+
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+</head>
+
+<h1> If they were not journalists...</h1>
+<body>
+	<div id="lines">
+<!-- 		<div class="entrance-container">
+			<ul class="lines">
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+			</ul>
+			<div class="direction"><span class="label">Direction: </span>To Manhattan</div>
+			<div class="name"><span class="label">Name: </span>Hoyt St.</div>
+			<div class="link"><a href="http://mta.info" target="_blank">http://mta.info</a></div>
+		</div> -->
+
+	</div>
+
+	<script id="template" type="text/jst">
+		<div class="student-container">
+			<div class="name">
+				<span><%=firstname%> <%=lastname%></span>	
+			</div>
+			<div class="job"><span class="label"><%= job %></span></div>
+		</div>
+	</script>
+	<!-- Our libraries -->
+	<script src="js/thirdparty/jquery-min.js"></script>
+	<script src="js/thirdparty/d3.v3.min.js"></script>
+	<script src="js/thirdparty/underscore-min.js"></script>
+	<!-- Our script -->
+	<script src="js/sampledata.js"></script>
+
+</body>
+</html>
